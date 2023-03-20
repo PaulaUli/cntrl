@@ -22,12 +22,14 @@ const CntrlPage: NextPage<Props> = (props) => {
   cntrlSdkContext.setTypePresets(props.typePresets);
 
   return (
-    <Page
-      project={props.project}
-      article={props.article}
-      meta={meta}
-      keyframes={props.keyframes}
-    />
+    <>
+      <Page
+        project={props.project}
+        article={props.article}
+        meta={meta}
+        keyframes={props.keyframes}
+      />
+    </>
   );
 }
 
