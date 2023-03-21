@@ -29,6 +29,7 @@ const CntrlPage: NextPage<Props> = (props) => {
         meta={meta}
         keyframes={props.keyframes}
       />
+      <div>footer</div>
     </>
   );
 }
